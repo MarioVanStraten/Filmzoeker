@@ -1,4 +1,4 @@
-{
+const database = {
     "Movies": [
       {
         "Title": "X-Men: Days of Future Past",

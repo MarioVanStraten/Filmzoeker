@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon&display=swap');
+
+body{
+    font-family: 'Do Hyeon', sans-serif;
+    background: #000000;
+    color: #ffffff;
+    overflow-y: scroll;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+}
+
+nav{
+    margin: 20px 0;
+    justify-content: center;
+}
+
+#menu{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item{
+    margin: 0 25px;
+}
+
+.item label{
+    margin: 0 0 0 5px;
+}
+
+#wrapper{
+    margin: 0 0 100px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#content{
+    width: 80%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie-wrapper{
+    height: 300px;
+    width: 200px;
+    overflow: hidden;
+    margin: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.movie-wrapper:hover{
+    transform: scale(1.1);
+    transition-timing-function: ease-out;
+    transition: 0.25s;
+    -webkit-box-shadow: 0px 0px 85px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 85px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 85px 0px rgba(0,0,0,0.75);
+}
+
+.movie-wrapper img{
+    height: 100%;
+    width: 100%;
+}
