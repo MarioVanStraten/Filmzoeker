@@ -24,6 +24,8 @@ const returnFilterdMovies = () => {
             if(parseInt(resultSelected)) {
                 const filterdMovies = filterByYear(resultSelected);
                 displayMovies(filterdMovies);
+            } else if(resultSelected === 'reset') {
+                displayMovies(allMovies);
             } else {
                 const filterdMovies = filterByHero(resultSelected);
                 displayMovies(filterdMovies);
