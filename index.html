@@ -6,23 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script defer src="js/database.js"></script>
     <script defer src="js/script.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Filmzoeker</title>
 </head>
 <body>
-    <h1>Welkom bij de Winc filmzoeker</h1>
-    <nav>
-        <ul id="menu">
-            <li class="item"><input type="radio" name="filter" value="2014"><label for="2014">Laatste films, 2014 of nieuwer</label></li>
-            <li class="item"><input type="radio" name="filter" value="Avengers"><label for="Avengers">Avengers Films</label></li>
-            <li class="item"><input type="radio" name="filter" value="X-Men"><label for="X-Men">X-Men Films</label></li class="item">
-            <li class="item"><input type="radio" name="filter" value="Princess"><label for="Princess">Princess Films</label></li class="item">
-            <li class="item"><input type="radio" name="filter" value="Batman"><label for="Batman">Batman Films</label></li class="item">
-            <li class="item"><input type="radio" name="filter" value="reset"><label for="reset">Reset Filter</label></li>
-        </ul>
-    </nav>
-    <div id="wrapper">
-        <div id="content"></div>
-    </div>
+    <header>
+        <h1>Welkom bij de Winc filmzoeker</h1>
+        <nav>
+            <ul id="menu">
+                <li class="item"><input type="radio" name="filter" value="2014"><label for="2014">Laatste films, 2014 of nieuwer</label></li>
+                <li class="item"><input type="radio" name="filter" value="Avengers"><label for="Avengers">Avengers Films</label></li>
+                <li class="item"><input type="radio" name="filter" value="X-Men"><label for="X-Men">X-Men Films</label></li>
+                <li class="item"><input type="radio" name="filter" value="Princess"><label for="Princess">Princess Films</label></li>
+                <li class="item"><input type="radio" name="filter" value="Batman"><label for="Batman">Batman Films</label></li>
+                <li class="item"><input type="radio" name="filter" value="reset"><label for="reset">Toon alle films</label></li>
+                <li class="item"><i class="fas fa-search"></i><input type="text" name="search" value="" placeholder="Zoek op woord of jaartal"></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="wrapper">
+            <div id="content"></div>
+        </div>
+    </main>
 </body>
 </html>
