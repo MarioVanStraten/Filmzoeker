@@ -1,3 +1,7 @@
+# Week2 - PROJECT - ToDo list
+
+![Filmzoeker](Screenshot.png)
+
 # **Requirements  ✍️**
 
 Aan deze eisen moet jouw project voldoen:
