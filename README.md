@@ -1,4 +1,4 @@
-# Week2 - PROJECT - ToDo list
+# Week2 - PROJECT - Filmzoeker
 
 ![Filmzoeker](Screenshot.png)
 
